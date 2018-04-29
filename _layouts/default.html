@@ -14,35 +14,11 @@
     <body>
         <!-- div.wrapper -->
         <div id="wrapper">
-            <!-- div.main -->
-            <div id="main">
-                <!-- div.inner -->
-                <div class="inner">
-                    {% include header.html %}
+            {% include main.html %}
 
-                    {% include banner.html %}
-
-                    {% include posts.html %}
-                </div>
-                <!-- /div.inner -->
-            </div>
-            <!-- /div.main -->
-
-            <!-- div.sidebar -->
-            <div id="sidebar">
-                <div class="inner">
-                    {% include search.html %}
-
-                    {% include nav.html %}
-
-                    {% include mini-posts.html %}
-
-                    {% include info.html %}
-
-                    {% include footer.html %}
-                </div>
-            </div>
+            {% include sidebar.html %}
         </div>
+        <!-- /div.wrapper -->
 
         {% include scripts.html %}
     </body>
