@@ -6,20 +6,23 @@
 -->
 <html>
     <head>
-        {% include head.html %}
+        <title>Editorial by HTML5 UP</title>
 
-        {% include styles.html %}
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+        {% include imports/styles.html %}
     </head>
 
     <body>
         <!-- div.wrapper -->
         <div id="wrapper">
-            {% include main.html %}
+            {% include index.html %}
 
             {% include sidebar.html %}
         </div>
         <!-- /div.wrapper -->
 
-        {% include scripts.html %}
+        {% include imports/scripts.html %}
     </body>
 </html>
