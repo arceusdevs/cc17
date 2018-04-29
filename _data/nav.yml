@@ -6,7 +6,7 @@ items:
   - name: Generic
     url: #
   - name: Elements
-    url: #
+    url: elements
   - name: Submenu
     items:
       - name: Lorem Dolor

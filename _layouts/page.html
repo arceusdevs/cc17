@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<!--
+    Editorial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>{{ site.title }} - {{ page.title }}</title>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+        {% include imports/styles.html %}
+    </head>
+
+    <body>
+        <!-- div.wrapper -->
+        <div id="wrapper">
+            <!-- div.main -->
+            <div id="main">
+                <!-- div.inner -->
+                <div class="inner">
+                    {% include header.html %}
+
+                    <section>
+                        <header class="main">
+                            <h1>{{ page.title }}</h1>
+                        </header>
+
+                        {% if page.img %}
+                        <span class="image main">
+                            <img src="{{ page.img.src }}" alt="{{ page.img.alt }}">
+                        </span>
+                        {% endif %}
+
+                        <!-- div.dynamic-content -->
+                        <div class="dynamic-content">
+                            {{ content}}
+                        <!-- /div.dynamic-content -->
+                        </div>
+                    </section>
+                </div>
+                <!-- /div.inner -->
+            </div>
+            <!-- /div.main -->
+
+            {% include sidebar.html %}
+        </div>
+        <!-- /div.wrapper -->
+
+        {% include imports/scripts.html %}
+    </body>
+</html>
