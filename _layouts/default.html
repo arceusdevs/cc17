@@ -17,7 +17,17 @@
     <body>
         <!-- div.wrapper -->
         <div id="wrapper">
-            {% include index.html %}
+            <!-- div.main -->
+            <div id="main">
+                <!-- div.inner -->
+                <div class="inner">
+                    {% include header.html %}
+
+                    {{ content }}
+                </div>
+                <!-- /div.inner -->
+            </div>
+            <!-- /div.main -->
 
             {% include sidebar.html %}
         </div>
