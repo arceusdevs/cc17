@@ -3,7 +3,7 @@ info: >-
     Site de organização da turma de Ciência da Computação do ano de 2017.
     Universidade Federal de Alagoas, campus Arapiraca.
 baseurl: ""
-url: "127.0.0.1:4000"
+url: localhost:4000
 
 social:
     facebook:
