@@ -2,7 +2,7 @@ title: Menu de navegação
 
 items:
   - name: Página principal
-    url: #
+    url: index
   - name: Quem somos
     url: #
   - name: Calendário
@@ -21,3 +21,6 @@ items:
         url: #
       - name: Seminário Integrador II
   - name: Publicações gerais
+    url:
+  - name: Publicação de teste
+    url: fp
