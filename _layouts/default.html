@@ -28,11 +28,11 @@
                 <div class="inner">
                     {% include header.html %}
 
-                    <!-- div.dynamic-content -->
-                    <div class="dynamic-content">
-                        {{ content }}
-                    </div>
-                    <!-- /div.dynamic-content -->
+                    <!-- dynamic content -->
+                    {{ content }}
+
+                    {% include posts.html %}
+                    <!-- /dynamic content -->
                 </div>
                 <!-- /div.inner -->
             </div>
