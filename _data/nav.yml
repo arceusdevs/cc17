@@ -7,19 +7,22 @@ items:
     url: #
   - name: Calendário
     url: #
-  - name: 1º Período
+  - name: 3º Período
     items:
-      - name: Cálculo I
+      - name: Algebra Linear
         url: #
-      - name: Ética
+      - name: Cálculo II
         url: #
-      - name: Expressão Gráfica
+      - name: Eletrônica Básica
         url: #
-      - name: Geometria Analítica
+      - name: Engenharia de Requisitos
         url: #
-      - name: Introdução à Computação
+      - name: Lógica aplicada à computação
         url: #
-      - name: Seminário Integrador II
+      - name: Lógica de programação I
+        url: #
+      - name: Programação I
+        url: #
   - name: Publicações gerais
     url:
   - name: Publicação de teste
