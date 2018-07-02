@@ -1,6 +1,10 @@
 ---
 layout: page
+date: 2018-07-01 00:10:08
 title: "Conceitos da programação funcional"
+image: https://thedevs.network/static/img/posts/what-is-functional-programming.jpg
+description: Uma breve introdução à programação funcional, seu funcionamento e seu uso
+category: geral
 ---
 
 Para o desenvolvimento de softwares, existem linguagens de programação. Essas

@@ -2,7 +2,7 @@ title: Menu de navegação
 
 items:
   - name: Página principal
-    url: index
+    url: /index
   - name: Quem somos
     url: #
   - name: Calendário
@@ -12,7 +12,7 @@ items:
       - name: Algebra Linear
         url: #
       - name: Cálculo II
-        url: calculo2
+        url: /calculo2
       - name: Eletrônica Básica
         url: #
       - name: Engenharia de Requisitos
@@ -20,10 +20,8 @@ items:
       - name: Lógica aplicada à computação
         url: #
       - name: Lógica de programação I
-        url: logicadeprogramacao1
+        url: /logicadeprogramacao1
       - name: Programação I
         url: #
   - name: Publicações gerais
-    url:
-  - name: Publicação de teste
-    url: fp
+    url: /geral
