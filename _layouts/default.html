@@ -31,7 +31,9 @@
                     <!-- dynamic content -->
                     {{ content }}
 
+                    {% if (site.categories[page.pagination].size) or (page.pagination == 'all') %}
                     {% include posts.html %}
+                    {% endif %}
                     <!-- /dynamic content -->
                 </div>
                 <!-- /div.inner -->
