@@ -12,7 +12,7 @@ items:
       - name: Algebra Linear
         url: #
       - name: Cálculo II
-        url: #
+        url: calculo2
       - name: Eletrônica Básica
         url: #
       - name: Engenharia de Requisitos
@@ -20,7 +20,7 @@ items:
       - name: Lógica aplicada à computação
         url: #
       - name: Lógica de programação I
-        url: #
+        url: logicadeprogramacao1
       - name: Programação I
         url: #
   - name: Publicações gerais
