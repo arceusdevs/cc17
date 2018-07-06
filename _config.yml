@@ -2,8 +2,8 @@ title: Turma CC17
 info: >-
     Site de organização da turma de Ciência da Computação do ano de 2017.
     Universidade Federal de Alagoas, campus Arapiraca.
-baseurl: cc17
-url: http://tkovs.me/
+baseurl: 
+url: http://tkovs.me/cc17
 
 social:
     facebook:
