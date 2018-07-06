@@ -12,12 +12,12 @@
 
                 <ul>
                     {% for subitem in item.items %}
-                    <li><a href="{{ subitem.url | absolut_url}}">{{ subitem.name }}</a></li>
+                    <li><a href="{{ subitem.url | prepend:site.baseurl }}">{{ subitem.name }}</a></li>
                     {% endfor %}
                 </ul>
             </li>
             {% else %}
-            <li><a href="{{ item.url | absolut_url}}">{{ item.name }}</a></li>
+            <li><a href="{{ item.url | prepend:site.baseurl }}">{{ item.name }}</a></li>
             {% endif %}
         {% endfor %}
     </ul>
