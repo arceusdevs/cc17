@@ -21,7 +21,7 @@ Futuramente, após o projeto estar fluindo, a ideia é portar para uma stack web
 
 Há algumas formas de ajudar com o projeto que vejo no momento.
 
-- O site atualmente está hospedado [aqui](http://tkovs.me/cc17). Logo, já pode ser acessado e analisado. Caso tenha dicas de organização, design ou outra coisa, você pode deixar um email para [tkovs@outlook.com](mailto:tkovs@outlook.com), ou, através da sua conta no Github, abrir uma [issue](https://github.com/tkovs/cc17/issues) neste repositório para discutirmos a sua proposta entre os usuários.
+- O site atualmente está hospedado [aqui](https://cc17.netlify.com/). Logo, já pode ser acessado e analisado. Caso tenha dicas de organização, design ou outra coisa, você pode deixar um email para [tkovs@outlook.com](mailto:tkovs@outlook.com), ou, através da sua conta no Github, abrir uma [issue](https://github.com/tkovs/cc17/issues) neste repositório para discutirmos a sua proposta entre os usuários.
 - Para aqueles que querem por a mão na massa, há duas opções
   1. Estudar [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started), [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/How_CSS_works) e [SASS](https://sass-lang.com/guide), pelo menos pra entender o que são e como funcionam, caso ainda não conheçam. Com isso, poderão contribuir com o **estilo do site** que inclui posicionamento, cores e tamanhos.
   1. Estudar [Jekyll](https://jekyllrb.com) e contribuir com a **configuração do projeto**, adicionando **novos recursos**, tanto com [plugins](https://github.com/planetjekyll/awesome-jekyll-plugins) do Jekyll como de bibliotecas [JS](https://www.javascripting.com/)
